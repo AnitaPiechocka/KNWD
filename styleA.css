@@ -1,0 +1,126 @@
+body	
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Cuprum', sans-serif;
+
+}
+
+
+.nav
+{
+	height: 100px;
+	position: relative;
+	border-bottom: 1px solid #CBC2C2;
+	background-color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+#logo
+{
+	font-size: 50px;
+	font-weight: 700;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.right-nav
+{
+	position: absolute;
+	display: block;
+	right: 0px;
+	top: 0px;
+	padding-top: 27.5px ;
+	padding-bottom: 27.5px ;
+	margin-right: 20px;
+}
+ol
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+ol li 
+{
+		float: left;
+		display: block;
+}
+ol li a
+{
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 25px;
+	padding: 10px;
+	margin-right: 80px;
+	transition: all 1s ease-in-out;
+}
+ol li a:hover
+{	
+	color: white;
+	background-color: #BAB8B8;
+	opacity: 0.9;
+	
+}
+
+.content
+{
+	width: 90%;
+	text-align: center;
+	margin: 8% auto 8% auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+img
+{
+	width:350px;
+	width: 350px;
+	border-radius: 100%;
+}
+.pic
+{
+	
+	margin-top: 45px;
+	margin-bottom: 45px;
+	opacity: 0.7;	
+	overflow: hidden;
+	transition: all 1s ease-in-out;
+
+}
+.pic:hover
+{
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.row
+{
+
+	padding-top: 10px;
+	margin: 0;
+}
+.footer
+{
+	height: 80px;
+	border-top: 1px solid #CBC2C2;
+	text-align: center;
+
+}
+.footer a
+{
+	text-decoration: none;
+	color: #686464;
+}
